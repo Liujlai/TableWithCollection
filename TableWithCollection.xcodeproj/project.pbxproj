@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		686B09A48198C3F30B36C1BF /* libPods-TableWithCollection.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD8EB315D1892399BD3291B2 /* libPods-TableWithCollection.a */; };
 		78B2464C2092D3CB005E251A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B2464B2092D3CB005E251A /* AppDelegate.m */; };
 		78B2464F2092D3CB005E251A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B2464E2092D3CB005E251A /* ViewController.m */; };
 		78B246522092D3CB005E251A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78B246502092D3CB005E251A /* Main.storyboard */; };
 		78B246542092D3CC005E251A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78B246532092D3CC005E251A /* Assets.xcassets */; };
 		78B246572092D3CC005E251A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78B246552092D3CC005E251A /* LaunchScreen.storyboard */; };
 		78B2465A2092D3CC005E251A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B246592092D3CC005E251A /* main.m */; };
+		78B246622092D654005E251A /* LTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B246612092D654005E251A /* LTableViewCell.m */; };
+		78B246652092F04A005E251A /* LCollectionViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B246642092F04A005E251A /* LCollectionViewItem.m */; };
+		78B246682092F141005E251A /* LCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B246672092F141005E251A /* LCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		39CD6637579C7AB82F559B3E /* Pods-TableWithCollection.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableWithCollection.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TableWithCollection/Pods-TableWithCollection.debug.xcconfig"; sourceTree = "<group>"; };
+		588700FBE61AD0C524C1027C /* Pods-TableWithCollection.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableWithCollection.release.xcconfig"; path = "Pods/Target Support Files/Pods-TableWithCollection/Pods-TableWithCollection.release.xcconfig"; sourceTree = "<group>"; };
 		78B246472092D3CB005E251A /* TableWithCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableWithCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78B2464A2092D3CB005E251A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		78B2464B2092D3CB005E251A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +32,13 @@
 		78B246562092D3CC005E251A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		78B246582092D3CC005E251A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		78B246592092D3CC005E251A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		78B246602092D654005E251A /* LTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTableViewCell.h; sourceTree = "<group>"; };
+		78B246612092D654005E251A /* LTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTableViewCell.m; sourceTree = "<group>"; };
+		78B246632092F04A005E251A /* LCollectionViewItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCollectionViewItem.h; sourceTree = "<group>"; };
+		78B246642092F04A005E251A /* LCollectionViewItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCollectionViewItem.m; sourceTree = "<group>"; };
+		78B246662092F141005E251A /* LCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCollectionViewCell.h; sourceTree = "<group>"; };
+		78B246672092F141005E251A /* LCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCollectionViewCell.m; sourceTree = "<group>"; };
+		FD8EB315D1892399BD3291B2 /* libPods-TableWithCollection.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TableWithCollection.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +46,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				686B09A48198C3F30B36C1BF /* libPods-TableWithCollection.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6BCC0EFAC54B30C7529F311B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD8EB315D1892399BD3291B2 /* libPods-TableWithCollection.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		78B2463E2092D3CB005E251A = {
 			isa = PBXGroup;
 			children = (
 				78B246492092D3CB005E251A /* TableWithCollection */,
 				78B246482092D3CB005E251A /* Products */,
+				FC6AC2589FDCC6A1215A16D1 /* Pods */,
+				6BCC0EFAC54B30C7529F311B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +86,12 @@
 				78B2464B2092D3CB005E251A /* AppDelegate.m */,
 				78B2464D2092D3CB005E251A /* ViewController.h */,
 				78B2464E2092D3CB005E251A /* ViewController.m */,
+				78B246602092D654005E251A /* LTableViewCell.h */,
+				78B246612092D654005E251A /* LTableViewCell.m */,
+				78B246632092F04A005E251A /* LCollectionViewItem.h */,
+				78B246642092F04A005E251A /* LCollectionViewItem.m */,
+				78B246662092F141005E251A /* LCollectionViewCell.h */,
+				78B246672092F141005E251A /* LCollectionViewCell.m */,
 				78B246502092D3CB005E251A /* Main.storyboard */,
 				78B246532092D3CC005E251A /* Assets.xcassets */,
 				78B246552092D3CC005E251A /* LaunchScreen.storyboard */,
@@ -71,6 +101,15 @@
 			path = TableWithCollection;
 			sourceTree = "<group>";
 		};
+		FC6AC2589FDCC6A1215A16D1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				39CD6637579C7AB82F559B3E /* Pods-TableWithCollection.debug.xcconfig */,
+				588700FBE61AD0C524C1027C /* Pods-TableWithCollection.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,6 +117,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 78B2465D2092D3CC005E251A /* Build configuration list for PBXNativeTarget "TableWithCollection" */;
 			buildPhases = (
+				0134372CC0DF4CBD10FE95E2 /* [CP] Check Pods Manifest.lock */,
 				78B246432092D3CB005E251A /* Sources */,
 				78B246442092D3CB005E251A /* Frameworks */,
 				78B246452092D3CB005E251A /* Resources */,
@@ -136,13 +176,37 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0134372CC0DF4CBD10FE95E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TableWithCollection-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		78B246432092D3CB005E251A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				78B2464F2092D3CB005E251A /* ViewController.m in Sources */,
+				78B246682092F141005E251A /* LCollectionViewCell.m in Sources */,
+				78B246652092F04A005E251A /* LCollectionViewItem.m in Sources */,
 				78B2465A2092D3CC005E251A /* main.m in Sources */,
+				78B246622092D654005E251A /* LTableViewCell.m in Sources */,
 				78B2464C2092D3CB005E251A /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,6 +345,7 @@
 		};
 		78B2465E2092D3CC005E251A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39CD6637579C7AB82F559B3E /* Pods-TableWithCollection.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -297,6 +362,7 @@
 		};
 		78B2465F2092D3CC005E251A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 588700FBE61AD0C524C1027C /* Pods-TableWithCollection.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
