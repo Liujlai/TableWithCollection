@@ -44,9 +44,12 @@
     [self reloadCell];
 }
 
+/**
+ 约束冲突:定位方法--> 再打断点的地方输入下方控制台的提示，运行后遇到约束冲突会自动定位
+ */
 -(void)reloadCell{
     [self.collectionView reloadData];
-//    这个地方使用makeCons会约束冲突---> 改为updateCons
+#pragma mark -  这个地方使用makeCons会约束冲突---> 改为updateCons
     self.collectionView.updateCons(^{
         make.height.constants(self.collectionView.collectionViewLayout.collectionViewContentSize.height);
         
